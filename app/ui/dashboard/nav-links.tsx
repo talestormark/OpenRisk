@@ -23,6 +23,7 @@ const links = [
     icon: DocumentDuplicateIcon,
   },
   { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+  // (other list items) 
 ];
 
 export default function NavLinks() {
@@ -36,7 +37,7 @@ export default function NavLinks() {
             key={link.name}
             href={link.href}
             className={clsx(
-              'flex items-center justify-center gap-2 p-3 text-sm font-medium hover:bg-gray-800 hover:text-white md:flex-none md:justify-start md:p-2 ',
+              'flex items-center justify-center gap-2 p-3 text-sm font-medium hover:bg-gray-800 hover:text-white md:flex-none md:justify-start md:p-2 rounded-md',
               {
                 'bg-gray-800 text-white': pathname === link.href,
                 'text-gray-400': pathname !== link.href,
