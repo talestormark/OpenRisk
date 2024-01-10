@@ -17,3 +17,7 @@ We suggest that you begin by typing:
 
   cd nextjs-dashboard
   npm run dev
+
+Try with:
+Email: user@nextmail.com
+Password: 123456
